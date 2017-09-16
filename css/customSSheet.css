@@ -1,0 +1,202 @@
+﻿/*Custom Stylesheet*/
+html, body {
+    height: 100%;
+    width: 100%;
+    /*might be a white border:
+        margin:0;
+        padding:0;
+    */
+}
+/*Hero - Computer*/
+#computer {
+    background: url("../img/computercoffee.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+    #computer > #computer-text {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+        #computer > #computer-text > h1 {
+            color: black;
+            font-weight: bold;
+            font-family: Consolas;
+            font-size: 64px;
+            margin-top: -60px;
+        }
+
+.btn-outline-info {
+    color: #5bc0de;
+    background-image: none;
+    background-color: transparent;
+    border-color: #5bc0de;
+}
+
+/*Navigation bars*/
+.horizontal-nav {
+    background: transparent; /*shrink down*/
+    height: 30px;
+    width: 100%;
+    z-index: 10;
+}
+
+    .horizontal-nav > #logo {
+        padding: 5px 0 0 5px;
+    }
+
+    .horizontal-nav > #links, #logo {
+        display: inline-block;
+    }
+
+    .horizontal-nav > #links {
+        list-style: none;
+        padding: 5px 0 0 5px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+        /*Customer visible nav bar*/
+        .horizontal-nav > #links.visible {
+            background:rgba(0,0,0,0.7);
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+    .horizontal-nav > #links > li {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+        .horizontal-nav > #links.visible > li {
+            display: block;
+            color:rgb(174, 173, 173);
+            font-size:24px;
+            padding:10px;
+            margin-top:10px;
+        }
+
+
+/*Icon Row*/
+#iconRow {
+    padding: 20px 0px; /*interpret: top and bottom are 20, right and left are 0*/
+}
+
+#resume > h1 {
+    text-align: center;
+    padding: 10px
+}
+
+/*Pics*/
+
+#relax > #camera, #tea {
+    display: inline-block; /*for pics*/
+    float: left; /*for text*/
+    width: 50%; /*for text*/
+}
+
+#relax > #camera {
+    background: url("../img/ian-camera.jpg");
+    background-size: cover;
+    background-position: center left; /*push the image to the right, fit the left*/
+    height: 500px;
+    color: white;
+}
+
+
+#relax > #tea {
+    background: url("../img/toa-tea.jpg");
+    background-size: cover;
+    background-position: center right; /*push the image to the right, fit the left*/
+    height: 500px;
+    color: white;
+}
+
+#relax .overlay {
+    background: rgba(0,0,0,0.5);
+    font-family: Consolas;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*Journey*/
+#journey {
+    background: url("../img/HeaderPS.jpg");
+    background-size: cover;
+    background-position: center left; /*push the image to the right, fit the left*/
+    height: 100%;
+    width: 100%;
+}
+
+
+/*Footer*/
+#footer {
+    background: black;
+    padding: 25px;
+    color: white;
+}
+
+/*Media Queries*/
+@media(max-width:767px) { /*767px is the boundery that bootstrap will change the layout*/
+    /*Icon*/
+    #close, #open {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px 15px;
+        z-index: 30;
+    }
+
+    #close {
+        display: none;
+    }
+
+    .horizontal-nav > #links {
+        display: none;
+        padding: 0;
+    }
+
+    #computer > #computer-text > h1 {
+        font-size: 40px;
+    }
+    /*adding another class just for the padding*/
+    .sm-dev-padding {
+        padding-top: 60px;
+    }
+    /*changing the layout of the pics when the width is reached*/
+    #relax > #camera, #tea {
+        display: block;
+        width: 100%;
+    }
+
+    #resume > h1 {
+        font-size: 40px;
+    }
+
+    #resume > col-md-4 sm-dev-padding > h2 {
+        font-size: 80px;
+    }
+}
+
+/*Appendix:
+    Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
