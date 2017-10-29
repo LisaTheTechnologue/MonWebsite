@@ -8,10 +8,7 @@
 }
 
 /*SNS icon fx*/
-#sns {
-    bottom: 0px;
-    position: absolute;
-}
+
 
 .fa {
     padding-left: 30px;
@@ -19,29 +16,9 @@
     color: black;
 }
 
-.fa-2x {
-    font-size: 1.5em;
-}
 
-.sns {
-    position: absolute;
-    width: 90%;
-    border-top-color: darkgray;
-}
 
-/*Info column*/
-.boxInfo {
-    padding: 5px 15px;
-    border: solid;
-    border-color: #e0c005;
-    border-width: 2px;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    position: relative;
-    min-height: 240px;
-   
-}
+
 
 /*Contact Me Form column*/
 .boxForm {

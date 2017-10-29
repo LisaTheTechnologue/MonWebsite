@@ -2,19 +2,19 @@
 
     <!--Navbar1-->
     <?php include "php/nav.php" ?>
-
+	<!--Relax-->
+        <div class="relax"><iframe width="250" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/50745414&amp;color=%23472d22&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
     <!--Hero banner-->
-    <div class="jumbotron jumbotron-fluid" id="banner">
+    <div class="jumbotron">
         <!--Personal Quote-->
-        <h3>Jolisa Tran </h3>
+        <h3 style="text-align:center;">Jolisa Tran </h3>
         <p class="lead">To be who you are</p>
         <!--Avatar-->
-        <img src="img/Ava.jpg" class="ava" />
-        <!--Relax-->
-        <div class="relax"><iframe width="250" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/50745414&amp;color=%23472d22&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
+        <img src="img/Ava.jpg" id="ava" />
+        
     </div>
 
-    <!--Table of Content-->
+	<!--Table of Content-->
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-layout">
@@ -52,117 +52,152 @@
             </div>
         </div>
     </div>
+	<br/>
 
     <!--About Me-->
-    <div class="col-md-6 boxInfo">
-        567 Military Trail<br />
-        Toronto, ON M1E 4S7<br />
+	<div class="row AboutMe" >
+	    <div class="col-md-4 boxInfo" style="border-left: none;">
+			<br />
+			<h3><strong>Address: </strong></h3>
+			Toronto, Canada
 
-        <br />
-        <h5><strong>Phone Number:</strong></h5>
-        <a href="tel:+16477853297">6477853297</a>
-        <br />
+			<br />
+			<br />
+			<br />
+			<h3><strong>Phone Number:</strong></h3>
+			<a href="tel:+16477853297">6477853297</a>
+			<br />
+			<br />
+			<br />
+			<h3><strong>Email:</strong></h>
+			<br />
+			<a href="mailto:ctran66@my.centennialcollege.ca">ctran66@my.centennialcollege.ca</a><br />
+			<br />
+			<br /><br />
+			<hr class="sns" />
+			<div id="sns">
 
-        <h5><strong>Email:</strong></h5>
-        <a href="mailto:ctran66@my.centennialcollege.ca">ctran66@my.centennialcollege.ca</a><br />
+				<a href="https://www.facebook.com/lisa.chan.toronto"><i class="fa fa-facebook fa-x" aria-hidden="true"></i></a>
+				<a href="https://plus.google.com/u/0/111764860534336794242"><i class="fa fa-google-plus fa-x" aria-hidden="true"></i></a>
+				<a href="https://github.com/LisaTheTechnologue"><i class="fa fa-github fa-x" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/jolisa-chan/"><i class="fa fa-linkedin fa-x" aria-hidden="true"></i></a>
+			</div>
+		</div>
 
-        <hr class="sns" />
-        <div id="sns">
+		<div class="col-md-8 boxInfo" >
+			<h2><strong>Hello there!</strong></h2>
+			<br/>
+			<p>
+			Passion can start from <strong>little</strong> things. <br/> 
+			<br />
+			I used to have struggle with computer software. 
+			<br /><br />
+			Until that, I realized I want to do something  
+			to make those usable for everyone.<br/>
+			<br />
+			That is how I define <strong>passion</strong>.
+			<br /><br />
+			<i >If you do the same, you receive the same result.
+			<br /><br />
+			<strong>DON'T</strong> be a afraid to be different</i>
+			<br />
+			<br />
+			</p>
+			<br /><br />
+			</div>
+		</div>
+	</div>
 
-            <a href="https://www.facebook.com/lisa.chan.toronto"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-            <a href="https://plus.google.com/u/0/111764860534336794242"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-            <a href="https://github.com/LisaTheTechnologue"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/jolisa-chan/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-        </div>
-    </div>
 
     <!--Resume-->
-    <ul class="timeline">
-        <li><div class="tldate">Education</div></li>
-        <!--Centennial College-->
-        <li>
-            <div class="tl-circ"></div>
-            <div class="timeline-panel">
-                <div class="tl-heading">
-                    <h4>Software Engineering Technology Diploma</h4>
-                    <h5 class="tl-smallCap">Centennial College, Toronto</h5>
-                </div>
-                <div class="tl-body">
-                    <ul>
-                        <li>Advanced Database Concepts</li>
-                        <li>Advanced Object Oriented Concepts</li>
-                        <li>Web Development</li>
-                        <li>Business/Technical Analyst</li>
-                    </ul>
-                </div>
-            </div>
-        </li>
+	<div id="Resume-Timeline">
+		<ul class="timeline">
+			<li><div class="tldate">Education</div></li>
+			<!--Centennial College-->
+			<li>
+				<div class="tl-circ"></div>
+				<div class="timeline-panel">
+					<div class="tl-heading">
+						<h4>Software Engineering Technology Diploma</h4>
+						<h5 style="font-weight: bold">Centennial College, Toronto</h5>
+						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Jan 2017 - Present</small></p>
+					</div>
+					<div class="tl-body">
+							Advanced Database Concepts<br/>
+							Advanced Object Oriented Concepts<br/>
+							Web Development<br/>
+							Business/Technical Analyst
+                    
+					</div>
+				</div>
+			</li>
 
-        <li><div class="tldate">Work Experience</div></li>
+			<li><div class="tldate">Work Experience</div></li>
 
-        <li>
-            <div class="tl-circ"></div>
-            <div class="timeline-panel">
-                <div class="tl-heading">
-                    <h4>Team Member</h4>
-                    <h5 style="font-weight: bold">Cara Inc.</h5>
-                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> June - September 2017</small></p>
-                </div>
-                <div class="tl-body">
-                    <ul>
-                        <li>Handled cash transactions accurately and efficiently.</li>
-                        <li>Experienced working with multiple-tasking in fast-paced environment.</li>
-                        <li>Worked effectively and efficiently with team to deliver quality products and keep up with demand.</li>
-                        <li>
-                            Went above and beyond duties to address customer questions and concerns as well as providing them with their desired product
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-        <li class="timeline-inverted">
-            <div class="timeline-panel">
-                <div class="tl-heading">
-                    <h4>Lab Assistant</h4>
-                    <h5 style="font-weight: bold">Centennial College</h5>
-                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> September 2017 – Present</small></p>
-                </div>
-                <div class="tl-body">
-                    <ul>
-                        <li>Assist people in technology for students with disabilities.</li>
-                        <li>Able to connect people with diverse backgrounds, experiences, and interests.</li>
-                        <li>Worked effectively and efficiently with team to deliver quality products and keep up with demand.</li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-    </ul>
-
+			<li>
+				<div class="tl-circ"></div>
+				<div class="timeline-panel">
+					<div class="tl-heading">
+						<h4>Team Member</h4>
+						<h5 style="font-weight: bold">Cara Inc.</h5>
+						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> June - September 2017</small></p>
+					</div>
+					<div class="tl-body">
+                    
+						Handled cash transactions accurately and efficiently.</br>
+						Experienced working with multiple-tasking in fast-paced environment.</br>
+						Worked effectively and efficiently with team to deliver quality products and keep up with demand.</br>                    
+						Went above and beyond duties to address customer questions and concerns as well as providing them with their desired product
+                    
+                    
+					</div>
+				</div>
+			</li>
+			<li class="timeline-inverted">
+				<div class="tl-circ"></div>
+				<div class="timeline-panel">
+					<div class="tl-heading">
+						<h4>Lab Assistant</h4>
+						<h5 style="font-weight: bold">Centennial College</h5>
+						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> September 2017 – Present</small></p>
+					</div>
+					<div class="tl-body">
+                    
+						Assist people in technology for students with disabilities.</br>
+						Able to connect people with diverse backgrounds, experiences, and interests.</br>
+						Worked effectively and efficiently with team to deliver quality products and keep up with demand.
+                    
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="container">
     <!--Skills-->
-    <div id="resume">
-        <h1>Technical Skills</h1>
-        <div class="container">
-            <div class="row text-center" id="iconRow">
-                <div class="col-md-4 sm-dev-padding">
-                    <i class="fa fa-file-code-o fa-3x" aria-hidden="true"></i>
-                    <h2>Programming</h2>
+		<div id="resume">
+			<h1>Technical Skills</h1>
+			<div class="container">
+				<div class="row text-center" id="iconRow">
+					<div class="col-md-4 sm-dev-padding">
+						<i class="fa fa-file-code-o fa-3x" aria-hidden="true"></i>
+						<h2>Programming</h2>
 
-                    <div class="SkillBar">
-                        <div id="Skill-HTML"> <span class="Skill-Area">HTML</span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3sfadeIn fadeIn-3s fadeIn-Delay-3s">100%</span> </div>
-                    </div>
+						<div class="SkillBar">
+							<div id="Skill-HTML"> <span class="Skill-Area">HTML</span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3sfadeIn fadeIn-3s fadeIn-Delay-3s">100%</span> </div>
+						</div>
 
-                </div>
-                <div class="col-md-4 sm-dev-padding">
-                    <i class="fa fa-magic fa-3x" aria-hidden="true"></i>
-                    <h2>Designing</h2>
-                </div>
-                <div class="col-md-4 sm-dev-padding">
-                    <i class="fa fa-database fa-3x" aria-hidden="true"></i>
-                    <h2>Data Managing</h2>
-                </div>
-            </div>
-        </div>
-    </div>
+					</div>
+					<div class="col-md-4 sm-dev-padding">
+						<i class="fa fa-magic fa-3x" aria-hidden="true"></i>
+						<h2>Designing</h2>
+					</div>
+					<div class="col-md-4 sm-dev-padding">
+						<i class="fa fa-database fa-3x" aria-hidden="true"></i>
+						<h2>Data Managing</h2>
+					</div>
+				</div>
+			</div>
+		</div>
 
     <!--Project-->
     <!--Contact Page-->

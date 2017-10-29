@@ -1,12 +1,13 @@
+</div>
 </body>
 <footer>
     <!--Footer-->
     <div id="footer" class="container-fluid">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h4>Site Map</h4>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h4>Resources</h4>
                 <div id="credit">
                     <ol>
@@ -15,8 +16,13 @@
                     </ol>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h4>Copyright</h4>
+				<p>
+				This is a personal website. <br/>
+				As I started building my own websites, many codes are generated online. <br/>
+				But the idea is mine.
+				</p>
             </div>
         </div>
     </div>

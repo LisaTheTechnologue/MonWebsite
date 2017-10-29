@@ -12,9 +12,8 @@
                 </button>
 
 
-                <a id="logo" class="navbar-brand" href="#">
-                    <img src="img/personalLogo.ico" width="25" height="25" class="brand" alt="logo">
-                    Jolisa
+                <a class="navbar-brand" href="#">
+                    <img src="img/personalLogo.ico" width="25" height="25" alt="logo" class="d-inline-block">
                 </a>
             </div>
 

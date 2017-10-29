@@ -18,6 +18,9 @@
     <link href="css/Site.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/bannerFX.css" rel="stylesheet" />
-    <link href="css/Timeline.css" rel="stylesheet" />
+	<link href="css/Timeline.css" rel="stylesheet" />
+	<link href="css/Timeline2.css" rel="stylesheet" />
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
 </head>
 <body>
