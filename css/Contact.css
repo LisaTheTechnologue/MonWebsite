@@ -1,24 +1,13 @@
-﻿.pageCustom {
-    background: #ffdda6;
-    opacity: 0.8;
-}
-
-.headerFont {
+﻿.headerFont {
     text-align: center;
 }
 
 /*SNS icon fx*/
-
-
 .fa {
     padding-left: 30px;
     padding-right: 10px;
     color: black;
 }
-
-
-
-
 
 /*Contact Me Form column*/
 .boxForm {
@@ -47,6 +36,10 @@
 
 button, input, optgroup, select, textarea {
     margin: 15px 10px;
+}
+
+.form-control {
+    margin: 5px 0 5px;
 }
 
 @media (min-width: 768px) {

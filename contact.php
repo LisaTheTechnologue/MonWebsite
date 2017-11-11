@@ -1,13 +1,12 @@
 ﻿<!--Contact Page-->
 <hr class="ruler" id="Contact" />
 <h2>Contact</h2>
-<div class="container pageCustom">
+<div class="pageCustom">
 	    <div class="container ">
         <div class="row">
 			<!--Map-->
             <div class="col-md-6 boxForm">
-                <div class="row">
-                </div>
+                <div id="googlemaps"></div>
             </div>
 
             <!--Form-->
@@ -15,7 +14,7 @@
                 <div class="row">
                     <div class="form-inline">
                         <label class="sr-only" for="inputName">Name</label>
-                        <div class="col-sm-6 inputContact">
+                        <div class="col-sm-6">
                             <input type="text" class="form-control" id="inputName" placeholder="Name">
                         </div>
                         <label class="sr-only" for="inputEmail">Email</label>

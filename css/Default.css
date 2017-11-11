@@ -15,29 +15,25 @@
 }
 
 .img {
-    width: 100%;
-    height: auto;
+    width: 350px;
+    height: 350px;
     
     transition: .5s ease;
     backface-visibility: hidden;
 }
-
+/********************************/
+/*            Overlay           */
+/********************************/
 .overlay {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
     width: 100%;
-    opacity: 0;
+    height: 100%;
+    z-index: 2;
+    background-color: #fffbf1;
+    opacity: .7;
     transition: .5s ease;
-    background-color: rgba(0,0,0,0.6);
 }
 
-.imgContainer:hover .overlay {
-    opacity: 0.6;
-}
 
 .imgContainer:hover .center{
     background: white;

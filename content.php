@@ -3,8 +3,9 @@
     <div class="row">
         <div class="col-md-4 col-layout">
             <div class="imgContainer">
+				<div class="overlay"></div>
                 <a runat="server" href="#About">
-                    <img src="img/resume_427.jpg" alt="resume-img" class="img" />
+                    <img src="img/vintage.jpg" alt="resume-img" class="img" />
                     <div class="overlay">
                         <p class="center">About Me</p>
                     </div>
@@ -15,6 +16,7 @@
 
         <div class="col-md-4 col-layout">
             <div class="imgContainer">
+			<div class="overlay"></div>
                 <a runat="server" href="#Project">
                     <img src="img/project_427.jpg" class="img" alt="project-img" />
                     <div class="overlay">
@@ -26,6 +28,7 @@
 
         <div class="col-md-4 col-layout">
             <div class="imgContainer">
+			<div class="overlay"></div>
                 <a runat="server" href="#Contact">
                     <img src="img/contact_427.jpg" class="img" alt="contact-img" />
                     <div class="overlay">

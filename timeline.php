@@ -1,5 +1,5 @@
 ﻿    <!--Resume-->
-	<div id="Resume-Timeline">
+	<div id="Timeline">
 		<ul class="timeline">
 			<li><div class="tldate">Education</div></li>
 			<!--Centennial College-->
@@ -33,9 +33,9 @@
 					</div>
 					<div class="tl-body">
                     
-						Handled cash transactions accurately and efficiently.</br>
-						Experienced working with multiple-tasking in fast-paced environment.</br>
-						Worked effectively and efficiently with team to deliver quality products and keep up with demand.</br>                    
+						Handled cash transactions accurately and efficiently.<br/>
+						Experienced working with multiple-tasking in fast-paced environment.<br/>
+						Worked effectively and efficiently with team to deliver quality products and keep up with demand.<br/>                    
 						Went above and beyond duties to address customer questions and concerns as well as providing them with their desired product
                     
                     
@@ -52,8 +52,8 @@
 					</div>
 					<div class="tl-body">
                     
-						Assist people in technology for students with disabilities.</br>
-						Able to connect people with diverse backgrounds, experiences, and interests.</br>
+						Assist people in technology for students with disabilities.<br/>
+						Able to connect people with diverse backgrounds, experiences, and interests.<br/>
 						Worked effectively and efficiently with team to deliver quality products and keep up with demand.
                     
 					</div>

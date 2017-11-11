@@ -1,20 +1,21 @@
 ﻿<!--About Me-->
-<div class="row AboutMe" >
-	<div class="col-md-4 boxInfo" style="border-left: none;">
-		<br />
-		<h3><strong>Address: </strong></h3>
+
+<div class="row AboutMe">
+	
+		<div class="col-md-4 boxInfo" style="border-left: none;">
+		
+		<h4><strong>Address: </strong></h4>
 		Toronto, Canada
 
 		<br />
 		<br />
 		<br />
-		<h3><strong>Phone Number:</strong></h3>
+		<h4><strong>Phone Number:</strong></h4>
 		<a href="tel:+16477853297">6477853297</a>
 		<br />
 		<br />
 		<br />
-		<h3><strong>Email:</strong></h>
-		<br />
+		<h4><strong>Email:</strong></h4>
 		<a href="mailto:ctran66@my.centennialcollege.ca">ctran66@my.centennialcollege.ca</a><br />
 		<br />
 		<br /><br />
@@ -50,7 +51,8 @@
 		<br /><br />
 		</div>
 	</div>
+
 </div>
-<br>
+<br/>
 
 

@@ -1,19 +1,21 @@
 ﻿.AboutMe {
-    font-family: 'Handlee', cursive;
-    background-image: url('../img/page_1920.jpg');
-    margin: 5px 0px;
-    padding: 30px 10px;
-    background-repeat: no-repeat;
-    
+    font-family: "Space Mono", Arial, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #4d4d4d;
+    background: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*Info column*/
 .boxInfo {
-    background: rgba(255,255,255,0.5);
+    
     border: solid;
     border-color: #000000;
     border-width: 2px;
-    font-size: 150%;
+    background: white;
     border-right: none;
     border-bottom: none;
     border-top: none;
