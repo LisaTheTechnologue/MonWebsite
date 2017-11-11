@@ -1,0 +1,63 @@
+﻿/*Hero*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.carousel-item {
+    background-position: center center;
+    color: white;
+    /* Set a specific height */
+    height: 100vh;
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px) {
+    .hero {
+        width: 980px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .hero h1 {
+        font-size: 4em;
+    }
+}
+
+#img1 {
+    top: 20%;
+    right: 70%;
+}
+
+#img3 {
+    top: 30%;
+    left: 70%;
+}
+
+#ava {
+    padding-top: -20px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+    display: block;
+    margin: 20px auto;
+    margin-top: 50px;
+}
+
+    #ava:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+
+.btn-outline-info {
+    color: #5bc0de;
+    background-image: none;
+    background-color: transparent;
+    border-color: #5bc0de;
+}

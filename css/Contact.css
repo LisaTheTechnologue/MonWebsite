@@ -1,23 +1,10 @@
-﻿.headerFont {
-    text-align: center;
-}
-
-/*SNS icon fx*/
-.fa {
-    padding-left: 30px;
-    padding-right: 10px;
-    color: black;
+﻿.pageCustom {
+    background-color:white;
 }
 
 /*Contact Me Form column*/
 .boxForm {
-    padding: 5px 15px;
-    border: solid;
-    border-color: #e0c005;
-    border-width: 2px;
-    border-right: none;
-    border-bottom: none;
-    position: relative;
+    padding: 0px 15px 35px;
     min-height: 240px;
 }
 

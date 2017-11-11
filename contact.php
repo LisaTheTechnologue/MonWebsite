@@ -1,8 +1,6 @@
-﻿<!--Contact Page-->
-<hr class="ruler" id="Contact" />
-<h2>Contact</h2>
-<div class="pageCustom">
-	    <div class="container ">
+﻿<div class="pageCustom">
+	<h3 id="resumeHeader" style="color:black;padding:45px 0px">DROP ME A LINE</h3>
+	<div class="container ">
         <div class="row">
 			<!--Map-->
             <div class="col-md-6 boxForm">
@@ -35,4 +33,4 @@
             </div>
         </div>
     </div>
-	
+</div>	

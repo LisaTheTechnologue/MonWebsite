@@ -5,7 +5,7 @@
             <div class="imgContainer">
 				<div class="overlay"></div>
                 <a runat="server" href="#About">
-                    <img src="img/vintage.jpg" alt="resume-img" class="img" />
+                    <img src="https://i.imgur.com/5814jsH.jpg" alt="resume-img" class="img" />
                     <div class="overlay">
                         <p class="center">About Me</p>
                     </div>
@@ -18,7 +18,7 @@
             <div class="imgContainer">
 			<div class="overlay"></div>
                 <a runat="server" href="#Project">
-                    <img src="img/project_427.jpg" class="img" alt="project-img" />
+                    <img src="https://i.imgur.com/fcscc6H.jpg" class="img" alt="project-img" />
                     <div class="overlay">
                         <p class="center">My Projects</p>
                     </div>
@@ -30,7 +30,7 @@
             <div class="imgContainer">
 			<div class="overlay"></div>
                 <a runat="server" href="#Contact">
-                    <img src="img/contact_427.jpg" class="img" alt="contact-img" />
+                    <img src="https://i.imgur.com/rCIIqNM.jpg" class="img" alt="contact-img" />
                     <div class="overlay">
                         <p class="center">Contact me</p>
                     </div>

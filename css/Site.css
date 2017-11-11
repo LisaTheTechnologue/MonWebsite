@@ -1,19 +1,23 @@
-﻿.myPage {
+﻿﻿ /*Custom Stylesheet*/
+html, body {
+    height: 100%;
+    width: 100%;
+    /*might be a white border:
+        margin:0;
+        padding:0;
+    */
+}
+
+.myPage {
     color: #fff;
+    background-color: #0e0c0c;
     -webkit-font-smoothing: antialiased;
 }
 
-
-
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-
-
 /*Navbar fx and collapse Bootstrap*/
 .navbar {
-    height: 40px;
+    height: 50px;
 }
-
 
 .collapsing, .navbar-collapse.in, #collapsibleNavbar {
     background-color: #343a40;
@@ -22,71 +26,25 @@
     margin-right: -15px;
 }
 
-/*Hero*/
-
-/********************************/
-/*       Fade Bs-carousel       */
-/********************************/
-.carousel-item {
-    background-position: center center;
-    color: white;
-    /* Set a specific height */
-    height: 100vh;
-    /* Create the parallax scrolling effect */
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/********************************/
-/*          Media Queries       */
-/********************************/
-@media screen and (min-width: 980px) {
-    .hero {
-        width: 980px;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .hero h1 {
-        font-size: 4em;
-    }
-}
-#img1 {
-    top:20%;
-    right:70%;
-}
-
-#img3 {
-    top: 30%;
-    left:70%;
-}
-#ava {
-    padding-top: -20px;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 100px;
-    display: block;
-    margin: 20px auto;
-    margin-top: 50px;
-}
-
-    #ava:hover {
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-    }
-
+/*Media box*/
 .relax {
     bottom: 10px;
     right: 10px;
     position: fixed;
     z-index: 99999;
 }
+#resume {
+    margin-top:-20px;
+}
+#resumeHeader {
+    text-align: center;
+    font-family: 'Oxygen Mono', monospace;
+    padding-top: 20px;
+}
 
-
-.btn-outline-info {
-    color: #5bc0de;
-    background-image: none;
-    background-color: transparent;
-    border-color: #5bc0de;
+/*Footer*/
+#footer {
+    background: black;
+    padding: 25px;
+    color: white;
 }

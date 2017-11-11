@@ -16,8 +16,7 @@
 			<h3 style="text-align:center;">Jolisa Tran </h3>
 			<p class="lead">To be who you are</p>
 			<!--Avatar-->
-			<img src="img/ava.jpg" id="ava" />
-			
+			<img src="https://i.imgur.com/SWcWFJ5.jpg" id="ava" />
 		</div>
 	</div>
     <div class="carousel-item">

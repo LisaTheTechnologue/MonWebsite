@@ -1,4 +1,11 @@
-﻿.progress-wrap {
+﻿/*Icon Row*/
+#iconRow {
+    padding: 20px 0px ; /*interpret: top and bottom are 20, right and left are 0*/
+    color: white;
+}
+
+/*Progress Bar*/
+.progress-wrap {
     width: 100%;
     float: left;
     margin-bottom: 10px;
@@ -32,3 +39,4 @@
     height: 0.3125em;
     box-shadow: none;
 }
+

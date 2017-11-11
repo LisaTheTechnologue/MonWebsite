@@ -1,0 +1,59 @@
+﻿/*Effect for the image "Page of Contain": overlay and button*/
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.imgContainer:hover .overlay {
+    opacity: 0.6;
+}
+
+.imgContainer {
+    position: relative;
+}
+
+    .imgContainer:hover .center {
+        background: white;
+        opacity: 0.9;
+        border: blue;
+        border-radius: 4px;
+        border-style: inset;
+        border-width: 2px;
+        padding: 7px;
+    }
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+/*.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #fffbf1;
+    opacity: .7;
+    transition: .5s ease;
+}*/

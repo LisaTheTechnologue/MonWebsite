@@ -1,11 +1,11 @@
 ﻿<!--Skills-->
-<div id="Skills">
-	<h1>Technical Skills</h1>
+<div id="Skills" >
+	<h3 id="resumeHeader">TECHNICAL SKILLS</h3>
 	<div class="container">
 		<div class="row text-center" id="iconRow">
 			<div class="col-md-4 sm-dev-padding">
-				<i class="fa fa-html5 fa-3x" aria-hidden="true"></i>
-				<h2>WEB DEVLOPMENT</h2>
+				<i class="fa fa-html5 fa-2x" aria-hidden="true" style="color:white"></i>
+				<h4>WEB DEVLOPMENT</h4>
 				<div class="progress-wrap">
 					<h3>
 					<span class="name-left">	HTML / CSS </span>
@@ -55,8 +55,8 @@
 			</div>
 
 			<div class="col-md-4 sm-dev-padding">
-				<i class="fa fa-file-code-o fa-3x" aria-hidden="true"></i>
-				<h2>SOFTWARE DEVELOPMENT</h2>
+				<i class="fa fa-file-code-o fa-2x" aria-hidden="true" style="color:white"></i>
+				<h4>SOFTWARE DEVELOPMENT</h4>
 				<div class="progress-wrap">
 					<h3>
 						<span class="name-left">	UBUNTU</span>
@@ -105,8 +105,8 @@
 			</div>
 
 			<div class="col-md-4 sm-dev-padding">
-				<i class="fa fa-camera fa-3x" aria-hidden="true"></i>
-				<h2>INTERESTS</h2>
+				<i class="fa fa-camera fa-2x" aria-hidden="true" style="color:white"></i>
+				<h4>INTERESTS</h4>
 					<ul>
 						<li>Designing pictures: Adobe Photoshop 6, Adobe Illustrator CC 2017</li>
 						<li>Putting sub for videos: Aegisub, MeGUI</li>

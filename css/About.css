@@ -1,35 +1,40 @@
-﻿.AboutMe {
+﻿/*Whole section*/
+.AboutMe {
     font-family: "Space Mono", Arial, serif;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     color: #4d4d4d;
     background: white;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding:25px 95px;
 }
 
 /*Info column*/
 .boxInfo {
-    
     border: solid;
     border-color: #000000;
-    border-width: 2px;
+    border-width: 1px;
     background: white;
     border-right: none;
     border-bottom: none;
     border-top: none;
     position: relative;
     min-height: 240px;
+    padding-top:20px;
 }
-#sns {    
-    margin-top:20px;
-    margin-left:20px;
+
+/*SNS icon*/
+.fa {
+    margin-top: 20px;
+    padding-left: 30px;
+    color:black;
 }
+
+/*SNS outsider*/
 .sns {
     width: 90%;
     border-top: 2px solid darkgray;
 }
+
 /*Label Effect*/
 label {
     border-radius: 0px 50px;
@@ -40,11 +45,3 @@ label {
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
-
-/*Technical Effect*/
-.heading {
-    font-weight:bold;
-    text-align:center;
-}
-
-

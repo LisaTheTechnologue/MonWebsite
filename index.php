@@ -11,16 +11,15 @@
    	<!--Font Awesome-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!--Custom StyleSheet-->
-    <link href="css/customSSheet.css" rel="stylesheet" />
     <link href="css/About.css" rel="stylesheet" />
+	<link href="css/banner.css" rel="stylesheet" />
     <link href="css/Contact.css" rel="stylesheet" />
-    <link href="css/Default.css" rel="stylesheet" />
+	<link href="css/content.css" rel="stylesheet" />
     <link href="css/Site.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-	<link href="css/Timeline.css" rel="stylesheet" />
+    <link href="css/Timeline.css" rel="stylesheet" />
 	<link href="css/skills.css" rel="stylesheet" />
 	<!--Google Fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Oxygen|Handlee|Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Handlee|Space+Mono" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 	<!--Bootstrap 4-->  
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -41,21 +40,18 @@
 <?php include "about.php" ?>
 
 <!--Resume-->
-<?php include "timeline.php" ?>
-
-<div class="container">
-    
+<section id="resume">
+	<!--Timeline-->
+	<?php include "timeline.php" ?>
 	<!--Skills-->
 	<?php include "skills.php" ?>
-
 	<!--Project-->
 	<?php include "project.php" ?>
+</section>
+	
+<!--Contact Page-->
+<?php include "contact.php" ?>
 
-	<!--Contact Page-->
-	<?php include "contact.php" ?>
-
-</div>
-<br />
 <?php include "php/script.php" ?>
 <?php include "php/footer.php" ?>
 
