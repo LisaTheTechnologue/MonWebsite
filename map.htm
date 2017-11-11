@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="personal website">
+    <meta name="author" content="@LisaTheTechnologue">
+    <title>Jolisa's Website F2017</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" class="myPage">
+</body>
+<!--Personal js-->
+<script>
+function myMap() {
+		var location = {lat: 43.765659, lng: -79.223871};
+        var mapOptions = {
+			zoom: 4,
+			center: location
+        };
+        var map = new google.maps.Map(document.getElementById("googlemaps"), mapOptions);
+		var marker = new google.maps.Marker({
+			postion: location,
+			map: map
+		});
+}
+</script>
+
+
+<!--Google Maps-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-Aj0ddzhBaCZTOJRyQi_3MVn01N9yBvs&callback=myMap"></script>
+</html>

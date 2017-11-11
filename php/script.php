@@ -1,17 +1,19 @@
-
-
 <!--Personal js-->
 <script>
 function myMap() {
+		var location = {lat: 43.765659, lng: -79.223871};
         var mapOptions = {
-            center: new google.maps.LatLng(51.5, -0.12),
-            zoom: 10,
-            mapTypeId: google.maps.MapTypeId.HYBRID
-        }
+			zoom: 4,
+			center: location
+        };
         var map = new google.maps.Map(document.getElementById("googlemaps"), mapOptions);
+		var marker = new google.maps.Marker({
+			postion: location,
+			map: map
+		});
 }
 </script>
 
 
 <!--Google Maps-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-Aj0ddzhBaCZTOJRyQi_3MVn01N9yBvs&callback=myMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3NrllOvNsguqPW6CW88XIW8zx2BTqUi4&callback=myMap"></script>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -52,6 +52,28 @@
 <!--Contact Page-->
 <?php include "contact.php" ?>
 
-<?php include "php/script.php" ?>
-<?php include "php/footer.php" ?>
 
+<?php include "php/footer.php" ?>
+<!--Personal js-->
+<script>
+function myMap() {
+		var location = {lat: 43.765659, lng: -79.223871};
+        var mapOptions = {
+			zoom: 10,
+			center: location
+        };
+        var map = new google.maps.Map(document.getElementById("googlemaps"), mapOptions);
+		var marker = new google.maps.Marker({
+			postion: location,
+			map: map,
+			title:"Toronto, ON"
+		});
+}
+google.maps.event.addDomListener(window, 'load', myMap);
+</script>
+
+
+<!--Google Maps-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3NrllOvNsguqPW6CW88XIW8zx2BTqUi4&callback=myMap"></script>
+</body>
+</html>

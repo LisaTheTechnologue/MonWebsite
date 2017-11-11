@@ -1,5 +1,3 @@
-</div>
-<!--Footer-->
 <section id="footer" class="container-fluid">
     <div class="row">
         <div class="col-md-4">
@@ -24,5 +22,4 @@
         </div>
     </div>
 </section>
-</body>
-</html>
+

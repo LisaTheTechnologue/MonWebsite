@@ -1,18 +1,18 @@
 ﻿.pageCustom {
     background-color:white;
 }
-
+/*Google Map*/
+#googlemaps {
+    max-width: none;
+    height: 100%;
+}
 /*Contact Me Form column*/
 .boxForm {
     padding: 0px 15px 35px;
-    min-height: 240px;
+    height: 450px;
 }
 
-#inputName, #inputEmail {
-    margin-left: 10px;
-}
-
-#inputSubject, #inputMessage, .btn-block {
+#inputName, #inputEmail, #inputSubject, #inputMessage, .btn-block {
     margin-left: 25px;
     width: 90%;
 }
